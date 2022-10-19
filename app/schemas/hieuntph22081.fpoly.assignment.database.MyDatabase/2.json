@@ -1,0 +1,198 @@
+{
+  "formatVersion": 1,
+  "database": {
+    "version": 2,
+    "identityHash": "876c83c0e4265e1b1fa5d35914858c9a",
+    "entities": [
+      {
+        "tableName": "sach",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`maSach` TEXT NOT NULL, `tenSach` TEXT, `giaThue` REAL NOT NULL, `maLoaiSach` TEXT, PRIMARY KEY(`maSach`))",
+        "fields": [
+          {
+            "fieldPath": "maSach",
+            "columnName": "maSach",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "tenSach",
+            "columnName": "tenSach",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "giaThue",
+            "columnName": "giaThue",
+            "affinity": "REAL",
+            "notNull": true
+          },
+          {
+            "fieldPath": "maLoaiSach",
+            "columnName": "maLoaiSach",
+            "affinity": "TEXT",
+            "notNull": false
+          }
+        ],
+        "primaryKey": {
+          "columnNames": [
+            "maSach"
+          ],
+          "autoGenerate": false
+        },
+        "indices": [],
+        "foreignKeys": []
+      },
+      {
+        "tableName": "loaisach",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`maLoai` TEXT NOT NULL, `tenLoai` TEXT, PRIMARY KEY(`maLoai`))",
+        "fields": [
+          {
+            "fieldPath": "maLoai",
+            "columnName": "maLoai",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "tenLoai",
+            "columnName": "tenLoai",
+            "affinity": "TEXT",
+            "notNull": false
+          }
+        ],
+        "primaryKey": {
+          "columnNames": [
+            "maLoai"
+          ],
+          "autoGenerate": false
+        },
+        "indices": [],
+        "foreignKeys": []
+      },
+      {
+        "tableName": "thuthu",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`maTT` TEXT NOT NULL, `hoTen` TEXT, `matKhau` TEXT, PRIMARY KEY(`maTT`))",
+        "fields": [
+          {
+            "fieldPath": "maTT",
+            "columnName": "maTT",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "hoTen",
+            "columnName": "hoTen",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "matKhau",
+            "columnName": "matKhau",
+            "affinity": "TEXT",
+            "notNull": false
+          }
+        ],
+        "primaryKey": {
+          "columnNames": [
+            "maTT"
+          ],
+          "autoGenerate": false
+        },
+        "indices": [],
+        "foreignKeys": []
+      },
+      {
+        "tableName": "thanhvien",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`maTV` TEXT NOT NULL, `tenTV` TEXT, `ngaySinh` TEXT, PRIMARY KEY(`maTV`))",
+        "fields": [
+          {
+            "fieldPath": "maTV",
+            "columnName": "maTV",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "tenTV",
+            "columnName": "tenTV",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "ngaySinh",
+            "columnName": "ngaySinh",
+            "affinity": "TEXT",
+            "notNull": false
+          }
+        ],
+        "primaryKey": {
+          "columnNames": [
+            "maTV"
+          ],
+          "autoGenerate": false
+        },
+        "indices": [],
+        "foreignKeys": []
+      },
+      {
+        "tableName": "phieumuon",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`maPM` TEXT NOT NULL, `maTV` TEXT, `maSach` TEXT, `maTT` TEXT, `ngay` TEXT, `traSach` INTEGER NOT NULL, `tienThue` REAL NOT NULL, PRIMARY KEY(`maPM`))",
+        "fields": [
+          {
+            "fieldPath": "maPM",
+            "columnName": "maPM",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "maTV",
+            "columnName": "maTV",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "maSach",
+            "columnName": "maSach",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "maTT",
+            "columnName": "maTT",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "ngay",
+            "columnName": "ngay",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "traSach",
+            "columnName": "traSach",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "tienThue",
+            "columnName": "tienThue",
+            "affinity": "REAL",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "columnNames": [
+            "maPM"
+          ],
+          "autoGenerate": false
+        },
+        "indices": [],
+        "foreignKeys": []
+      }
+    ],
+    "views": [],
+    "setupQueries": [
+      "CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)",
+      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, '876c83c0e4265e1b1fa5d35914858c9a')"
+    ]
+  }
+}

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/background_black_corner_16"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:textColor="@color/white"
+        android:text="Sửa loại sách"
+        android:layout_marginBottom="20dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginBottom="20dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="Mã loại:"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:layout_marginRight="10dp"/>
+
+        <EditText
+            android:id="@+id/txtSuaMaLoaiSach"
+            android:layout_width="0dp"
+            android:layout_height="38dp"
+            android:layout_weight="8"
+            android:enabled="false"
+            android:background="@color/white"
+            android:hint="Nhập mã loại sách"
+            tools:ignore="TouchTargetSizeCheck" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginBottom="20dp">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="Tên loại:"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:layout_marginRight="10dp"/>
+
+        <EditText
+            android:id="@+id/txtSuaTenLoaiSach"
+            android:layout_width="0dp"
+            android:layout_height="38dp"
+            android:layout_weight="8"
+            android:background="@color/white"
+            android:hint="Nhập tên loại sách"
+            tools:ignore="TouchTargetSizeCheck" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:layout_marginTop="10dp">
+
+        <Button
+            android:id="@+id/btnHuyLoaiSach"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_weight="3"
+            android:backgroundTint="#b50606"
+            android:text="Hủy"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/btnSuaLoaiSach"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:backgroundTint="#1c18b7"
+            android:text="Lưu"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+
+
+</LinearLayout>

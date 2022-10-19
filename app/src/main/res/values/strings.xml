@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Assignment</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="nav_qlPhieuMuon">Quản lí phiếu mượn</string>
+    <string name="nav_qlSach">Quản lí sách</string>
+    <string name="nav_qlLoaiSach">Quản lí loại sách</string>
+    <string name="nav_qlThanhVien">Quản lí thành viên</string>
+    <string name="nav_top10">Top 10 sách bán chạy</string>
+    <string name="nav_doanhThu">Doanh thu</string>
+    <string name="nav_doiMatKhau">Đổi mật khẩu</string>
+    <string name="nav_themNguoiDung">Thêm người dùng</string>
+    <string name="nav_dangXuat">Đăng xuất</string>
+
+</resources>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/background_black_corner_16"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:textColor="@color/white"
+        android:text="Sửa sách"
+        android:layout_marginBottom="20dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginBottom="20dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="Mã sách:"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:layout_marginRight="10dp"/>
+
+        <EditText
+            android:id="@+id/txtSuaMaSach"
+            android:enabled="false"
+            android:layout_width="0dp"
+            android:layout_height="38dp"
+            android:layout_weight="8"
+            android:background="@color/white"
+            android:hint="Nhập mã sách"
+            tools:ignore="TouchTargetSizeCheck" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginBottom="20dp">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="Tên sách:"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:layout_marginRight="10dp"/>
+
+        <EditText
+            android:id="@+id/txtSuaTenSach"
+            android:layout_width="0dp"
+            android:layout_height="38dp"
+            android:layout_weight="8"
+            android:background="@color/white"
+            android:hint="Nhập tên sách"
+            tools:ignore="TouchTargetSizeCheck" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginBottom="20dp">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="Tiền thuê:"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:layout_marginRight="10dp"/>
+
+        <EditText
+            android:id="@+id/txtSuaTienSach"
+            android:layout_width="0dp"
+            android:layout_height="38dp"
+            android:layout_weight="8"
+            android:background="@color/white"
+            android:hint="Nhập tiền"
+            tools:ignore="TouchTargetSizeCheck" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginBottom="20dp">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="Loại sách:"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:layout_marginRight="10dp"/>
+
+        <Spinner
+            android:id="@+id/spnSuaLoaiSach"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="8"
+
+            android:background="@color/white"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:layout_marginTop="10dp">
+
+        <Button
+            android:id="@+id/btnHuySach"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_weight="3"
+            android:backgroundTint="#b50606"
+            android:text="Hủy"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/btnSuaSach"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:backgroundTint="#1c18b7"
+            android:text="Lưu"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+
+
+</LinearLayout>

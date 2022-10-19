@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/ADMIN/Documents/FPT Polytechnic/Mob2041/Assignment/app/src/main/res/drawable-v24/background_black_corner_16.xml" value="0.1415" />
+        <entry key="..\:/Users/ADMIN/Documents/FPT Polytechnic/Mob2041/Assignment/app/src/main/res/drawable-v24/background_corner20_bordergray.xml" value="0.1655" />
+        <entry key="..\:/Users/ADMIN/Documents/FPT Polytechnic/Mob2041/Assignment/app/src/main/res/drawable-v24/ic_baseline_person_30.xml" value="0.1655" />
+        <entry key="..\:/Users/ADMIN/Documents/FPT Polytechnic/Mob2041/Assignment/app/src/main/res/drawable/background_dropdown_btn.xml" value="0.166" />
+        <entry key="..\:/Users/ADMIN/Documents/FPT Polytechnic/Mob2041/Assignment/app/src/main/res/drawable/ic_baseline_arrow_drop_down_24.xml" value="0.166" />
+        <entry key="..\:/Users/ADMIN/Documents/FPT Polytechnic/Mob2041/Assignment/app/src/main/res/drawable/ic_baseline_play_arrow_24.xml" value="0.1415" />
+        <entry key="..\:/Users/ADMIN/Documents/FPT Polytechnic/Mob2041/Assignment/app/src/main/res/layout/activity_login.xml" value="0.1" />
+        <entry key="..\:/Users/ADMIN/Documents/FPT Polytechnic/Mob2041/Assignment/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/ADMIN/Documents/FPT Polytechnic/Mob2041/Assignment/app/src/main/res/layout/activity_opening.xml" value="0.2151268115942029" />
+        <entry key="..\:/Users/ADMIN/Documents/FPT Polytechnic/Mob2041/Assignment/app/src/main/res/layout/dialog_sua_loai_sach.xml" value="0.253125" />
+        <entry key="..\:/Users/ADMIN/Documents/FPT Polytechnic/Mob2041/Assignment/app/src/main/res/layout/dialog_sua_phieu_muon.xml" value="0.1" />
+        <entry key="..\:/Users/ADMIN/Documents/FPT Polytechnic/Mob2041/Assignment/app/src/main/res/layout/dialog_sua_sach.xml" value="0.2520833333333333" />
+        <entry key="..\:/Users/ADMIN/Documents/FPT Polytechnic/Mob2041/Assignment/app/src/main/res/layout/dialog_sua_thanh_vien.xml" value="0.253125" />
+        <entry key="..\:/Users/ADMIN/Documents/FPT Polytechnic/Mob2041/Assignment/app/src/main/res/layout/dialog_them_loai_sach.xml" value="0.264" />
+        <entry key="..\:/Users/ADMIN/Documents/FPT Polytechnic/Mob2041/Assignment/app/src/main/res/layout/dialog_them_phieu_muon.xml" value="0.2" />
+        <entry key="..\:/Users/ADMIN/Documents/FPT Polytechnic/Mob2041/Assignment/app/src/main/res/layout/dialog_them_sach.xml" value="0.253125" />
+        <entry key="..\:/Users/ADMIN/Documents/FPT Polytechnic/Mob2041/Assignment/app/src/main/res/layout/dialog_them_thanh_vien.xml" value="0.253125" />
+        <entry key="..\:/Users/ADMIN/Documents/FPT Polytechnic/Mob2041/Assignment/app/src/main/res/layout/fragment_doanh_thu.xml" value="0.1" />
+        <entry key="..\:/Users/ADMIN/Documents/FPT Polytechnic/Mob2041/Assignment/app/src/main/res/layout/fragment_doi_mat_khau.xml" value="0.1" />
+        <entry key="..\:/Users/ADMIN/Documents/FPT Polytechnic/Mob2041/Assignment/app/src/main/res/layout/fragment_quan_ly_loai_sach.xml" value="0.253125" />
+        <entry key="..\:/Users/ADMIN/Documents/FPT Polytechnic/Mob2041/Assignment/app/src/main/res/layout/fragment_quan_ly_phieu_muon.xml" value="0.253125" />
+        <entry key="..\:/Users/ADMIN/Documents/FPT Polytechnic/Mob2041/Assignment/app/src/main/res/layout/fragment_quan_ly_sach.xml" value="0.253125" />
+        <entry key="..\:/Users/ADMIN/Documents/FPT Polytechnic/Mob2041/Assignment/app/src/main/res/layout/fragment_quan_ly_thanh_vien.xml" value="0.253125" />
+        <entry key="..\:/Users/ADMIN/Documents/FPT Polytechnic/Mob2041/Assignment/app/src/main/res/layout/fragment_them_nguoi_dung.xml" value="0.1" />
+        <entry key="..\:/Users/ADMIN/Documents/FPT Polytechnic/Mob2041/Assignment/app/src/main/res/layout/fragment_top10_sach.xml" value="0.1" />
+        <entry key="..\:/Users/ADMIN/Documents/FPT Polytechnic/Mob2041/Assignment/app/src/main/res/layout/header_nav_layout.xml" value="0.253125" />
+        <entry key="..\:/Users/ADMIN/Documents/FPT Polytechnic/Mob2041/Assignment/app/src/main/res/layout/layout_item_loai_sach.xml" value="0.253125" />
+        <entry key="..\:/Users/ADMIN/Documents/FPT Polytechnic/Mob2041/Assignment/app/src/main/res/layout/layout_item_phieu_muon.xml" value="0.253125" />
+        <entry key="..\:/Users/ADMIN/Documents/FPT Polytechnic/Mob2041/Assignment/app/src/main/res/layout/layout_item_sach.xml" value="0.253125" />
+        <entry key="..\:/Users/ADMIN/Documents/FPT Polytechnic/Mob2041/Assignment/app/src/main/res/layout/layout_item_thanh_vien.xml" value="0.2520833333333333" />
+        <entry key="..\:/Users/ADMIN/Documents/FPT Polytechnic/Mob2041/Assignment/app/src/main/res/layout/layout_item_top_10.xml" value="0.253125" />
+        <entry key="..\:/Users/ADMIN/Documents/FPT Polytechnic/Mob2041/Assignment/app/src/main/res/menu/header_nav_layout.xml" value="0.253125" />
+        <entry key="..\:/Users/ADMIN/Documents/FPT Polytechnic/Mob2041/Assignment/app/src/main/res/menu/nav_menu.xml" value="0.4" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
